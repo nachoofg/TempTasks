@@ -1,0 +1,60 @@
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #36393F;
+    font-family: 'Fira Code', monospace;
+}
+
+.showcase a {
+    color: #eee;
+}
+
+.showcase {
+    background-color: #202225;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #2F3136;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    padding: 30px;
+    text-shadow: #ffffff5f 0 0 5px;
+}
+
+.showcase.title {
+    display: inline;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+}
+
+.functions {
+    border-radius: 10px;
+    background-color: #f806cc;
+    color: #eee;
+    outline-color: initial;
+    border-color: #f806cc;
+    box-shadow: rgb(24 26 27 / 15%) 0px 0px 2px inset;
+    padding: 4px 8px;
+    font: inherit;
+    cursor: pointer
+}
+
+input {
+    color: #eee;
+    background-color: #202225;
+    box-shadow: #202225 0px 0px 2px inset;
+    padding: 2px 4px;
+    font: inherit;
+    border-radius: 10px;
+    border-color: #000;
+}
+
+.close {
+    cursor: pointer
+}

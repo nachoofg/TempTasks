@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "electron ./index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^22.1.0"
+  }
+}
