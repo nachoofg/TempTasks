@@ -2,8 +2,14 @@
   "scripts": {
     "start": "electron ./index.js"
   },
-  "dependencies": {},
   "devDependencies": {
     "electron": "^22.1.0"
-  }
+  },
+  "author": "tsuchipls",
+  "license": "MIT",
+  "name": "temptasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": []
 }

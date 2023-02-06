@@ -9,7 +9,7 @@ const win = () => {
         height: 600,
         frame: false,
         titleBarStyle: 'hidden',
-        icon: join(process.cwd(), 'source', 'pics', 'ICON.png'),
+        icon: join(process.cwd(), 'source', 'frontend', 'pics', 'ICON.ico'),
         titleBarOverlay: {
             color: '#202225',
             symbolColor: '#B9BBBE',
@@ -21,7 +21,6 @@ const win = () => {
         }
     });
     win2.loadFile(join(process.cwd(), 'source', 'frontend', 'html', 'index.html'));
-    win2.setOverlayIcon((join(process.cwd(), 'source', 'frontend', 'pics', 'ICON.png')), 'TempTasks');
     win2.setAppDetails({ relaunchDisplayName: "TempTasks" })
 };
 
