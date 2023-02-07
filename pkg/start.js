@@ -24,11 +24,16 @@ function installDependencies() {
                 if (res === 'yes' || res === 'y') {
                     var cdS = cds(shortConfig)
                     if (cdS) console.log(colors.green(':: Shortcut Created ::'))
+                    readline.question(colors.yellow('Do you want to start the application? (y/n): '), (res) => {
+                        if (res === 'yes' || res === 'y') return exec('npm run start') && console.log(colors.green(':: App Started (if you close the console the application closes) ::'))
+                        else if (res === 'no' || res === 'n') readline.close()
+                        return console.log(colors.red(':: Ok,  process finished. ::'))
+                    })
                 } else if (res === 'no' || res === 'n') {
                     readline.question(colors.yellow('Do you want to start the application? (y/n): '), (res) => {
                         if (res === 'yes' || res === 'y') return exec('npm run start') && console.log(colors.green(':: App Started (if you close the console the application closes) ::'))
                         else if (res === 'no' || res === 'n') readline.close()
-                        return console.log(colors.red(':: Ok, remember that you can use the "tt" command to start the application ::'))
+                        return console.log(colors.red(':: Ok, process finished. ::'))
                     })
                 }
             })
