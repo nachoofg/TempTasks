@@ -1,4 +1,6 @@
-![image](https://user-images.githubusercontent.com/76927919/217138841-64fc7091-3890-42d0-9c05-b9bbe9c714de.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/76927919/217138841-64fc7091-3890-42d0-9c05-b9bbe9c714de.png"></img>
+</p>
 ### About
 
 This application was created for the simple reason of saving temporary tasks, its design is as simple as it is fast and easy to learn.
