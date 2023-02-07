@@ -1,3 +1,5 @@
+# Dir
 /node_modules
 
-*.bat
+# Files
+package-lock.json

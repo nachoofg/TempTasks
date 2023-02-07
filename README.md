@@ -1,14 +1,14 @@
-# TempTasks
+<p align="center">imagen</p>
 
-## Temporary use mode until finished
-Download the code, download the modules using the command `yarn` or `npm install` and execute using the command `yarn start` or `npm run start` 👍
+### About
 
-## Doing .bat
-1. Download the code and install `node_modules`.
-2. Create a .bat file inside the project folder with the name you want and insert the following example code
-```bat
-@ECHO OFF
-START yarn start
-```
-3. Double click on the .bat file and press where it says `send to` and press the `desktop` option.
-* You can also select the .bat file and click where it says `Create Shortcut`  
+This application was created for the simple reason of saving temporary tasks, its design is as simple as it is fast and easy to learn.
+
+### How to install and use.
+1. Ensure you have [node](https://nodejs.org/en/download/package-manager/) installed.
+2. Run `npm i temptask-cli -g` or `pnpm add temptask-cli -g`.
+3. Run `tt` in a cmd (if it doesn't work you can use `npm run build`). 
+4. Follow the instructions on screen.
+* If you want to use the application you can do it this:
+    * Run `tt` in console.
+    * Run shortcut created in desktop.

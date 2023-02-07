@@ -1,15 +1,30 @@
 {
   "scripts": {
-    "start": "electron ./index.js"
+    "start": "electron ./source/index.js",
+    "build": "node ./pkg/start.js"
   },
-  "devDependencies": {
-    "electron": "^22.1.0"
+  "bugs": {
+    "url": "https://github.com/tsuchipls/temptasks/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsuchipls/temptasks.git"
+  },
+  "homepage": "https://github.com/tsuchipls/temptasks#readme",
   "author": "tsuchipls",
   "license": "MIT",
-  "name": "temptasks",
+  "name": "temptasks-cli",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "keywords": []
+  "keywords": [],
+  "bin": {
+    "tt": "node pkg/start"
+  },
+  "dependencies": {
+    "electron": "^22.2.0"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "create-desktop-shortcuts": "^1.10.1"
+  }
 }
