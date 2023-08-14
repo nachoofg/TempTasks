@@ -1,15 +1,19 @@
 <head>
     <link rel="stylesheet" href="../css/index.css">
-    <title>✨ TempTasks - Home ✨</title>
+    <title>TempTasks - Home</title>
+    <meta charset="UTF-8">
 </head>
 
 <body unselectable="on" onselectstart="return false;">
     <script src="../../backend/index.js"></script>
+    <script src="renderer.js" preload></script>
+</script>
     <div class="add" id="add2" align="center">
         <h2 style="color: #eee;">Add a task to the group.</h2>
         <input type="text" id="addInput" placeholder="Task description...">
         <span onclick="addTask()" class="addBtn functions">Add to group</span>
         <span onclick="reset()" class="addBtn functions">Reset group</span>
+        <span onclick="optionss()" id="openOptions" class="addBtn functions">Options</span>
     </div>
     <br>
     <div class="showcase">

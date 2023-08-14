@@ -1,2 +1,2 @@
 @ECHO OFF
-START npm run build
+CALL npm run build
