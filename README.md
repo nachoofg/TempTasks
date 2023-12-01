@@ -12,7 +12,3 @@ This application was created for the simple reason of saving temporary tasks, it
 2. Run `git clone https://github.com/tsuchipls/TempTasks.git`.
 3. Ok to create a shortcut on the desktop.
 4. Run the program using `npm run build` or via the shortcut.
-<<<<<<< HEAD
-
-=======
->>>>>>> eda86535d1080316734187c977846589617cd5bb
